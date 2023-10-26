@@ -24,32 +24,38 @@ class CarsouelSlide extends StatelessWidget {
       {
         "text1": "Top Schools\nNear you",
         "text2":
-            "Find the best doctors in your area, get location of clinics or get consultant from top doctors from the comfort of your home.",
+            "Discover the educational gems that lie just around the corner – top-notch schools and tuition centers that empower young minds to shine.",
         "image": "assets/splashAssets/carsouelAssets/slide2.png"
       },
       {
         "text1": "Top Local Food \nNear you",
         "text2":
-            "Find the best doctors in your area, get location of clinics or get consultant from top doctors from the comfort of your home.",
+            "Explore the tasty secrets right around the corner – find local food shops serving delicious treats nearby!",
         "image": "assets/splashAssets/carsouelAssets/slide3.png"
       },
       {
         "text1": "Top Gyms Near you",
         "text2":
-            "Find the best doctors in your area, get location of clinics or get consultant from top doctors from the comfort of your home..",
+            "Stay in shape effortlessly by finding nearby gyms and fitness centers with convenience!",
         "image": "assets/splashAssets/carsouelAssets/slide4.png"
       },
       {
         "text1": "Top Salons Near you",
         "text2":
-            "Find the best doctors in your area, get location of clinics or get consultant from top doctors from the comfort of your home.",
+            "Easily discover nearby salons and beauty parlors for all your grooming needs!",
         "image": "assets/splashAssets/carsouelAssets/slide5.png"
       },
       {
         "text1": "Top Marriage Halls \nNear you",
         "text2":
-            "Find the best doctors in your area, get location of clinics or get consultant from top doctors from the comfort of your home.",
+            "Find the perfect marriage hall for your special day with ease!",
         "image": "assets/splashAssets/carsouelAssets/slide6.png"
+      },
+      {
+        "text1": "Top Influencers \nNear you",
+        "text2":
+            "Discover the top influencers who can help elevate your brand!",
+        "image": "assets/splashAssets/carsouelAssets/slide7.png"
       },
     ];
     return Scaffold(
@@ -130,7 +136,7 @@ class CarsouelSlide extends StatelessWidget {
               ],
             ),
             SizedBox(height: 8.h),
-            Text('Not looking for groceries?',
+            Text('Are you a service provider?',
                 style: headingTheme.copyWith(
                     fontSize: 12.sp,
                     color: const Color(0xff000000).withOpacity(0.5))),
@@ -138,7 +144,7 @@ class CarsouelSlide extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Become a Partner',
+                Text('Admin login',
                     style: headingTheme.copyWith(
                         fontSize: 12.sp, color: ksupportColor)),
                 Text('  |  ',
@@ -146,7 +152,7 @@ class CarsouelSlide extends StatelessWidget {
                         fontSize: 12.sp,
                         color: kprimayTextColor,
                         fontWeight: FontWeight.bold)),
-                Text('Become a Rider',
+                Text('Admin SignUp',
                     style: headingTheme.copyWith(
                         fontSize: 12.sp, color: ksupportColor))
               ],
